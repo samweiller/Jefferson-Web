@@ -1,0 +1,238 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+/* Color palette */
+
+:root {
+	--jefferson-green: #42d693;
+	--jefferson-blue: #4997d0;
+}
+
+/* Text styles */
+
+.info-title {
+	font-family: Cabin;
+	font-size: 36px;
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.9px;
+	color: #4997d0;
+	color: var(--jefferson-blue);
+	margin-top: 20px;
+}
+
+.front-subtitle {
+	font-family: Raleway;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 2.5px;
+	text-align: center;
+	color: #000000;
+	margin-top: 5%;
+}
+
+@media (min-width: 576px) {
+	.front-subtitle {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 768px) {
+	.front-subtitle {
+		font-size: 21px;
+	}
+ }
+
+@media (min-width: 992px) {
+	.front-subtitle {
+		font-size: 25px;
+	}
+ }
+
+@media (min-width: 1200px) {
+	.front-subtitle {
+		font-size: 28px;
+	}
+ }
+
+
+.nav-item {
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+	margin-top: 10px;
+}
+
+.info-subtitle {
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.4;
+	letter-spacing: 0.5px;
+	color: #000000;
+}
+
+.front-subtitle-mobile {
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	text-align: center;
+	color: #000000;
+}
+
+.learn-more-text {
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	line-height: 1.56;
+	letter-spacing: 0.3px;
+	text-align: justify;
+	color: #000000;
+}
+
+.info-text {
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.56;
+	letter-spacing: 0.3px;
+	color: #000000;
+}
+
+/* LOGOS AND SHIT */
+.front-logo-div {
+	margin-top: 45px;
+	text-align: center;
+}
+
+.main-logo {
+	text-align: center;
+	width: 90%;
+	max-width: 710px;
+}
+
+.messenger-button {
+	margin-top: 50px;
+	/*width: 60%;*/
+	font-family: Raleway;
+	font-weight: 300;
+	font-size: 16px;
+	background-image: linear-gradient(252deg, rgba(73, 151, 208, 0.85), #4997d0);
+	background-image: linear-gradient(252deg, rgba(73, 151, 208, 0.85), var(--jefferson-blue));
+	border: none;
+}
+
+.messenger-icon {
+	margin-bottom: -5px;
+	margin-left: 10px;
+	width: 20px;
+}
+
+@media (min-width: 576px) {
+	.messenger-button {
+		font-size: 16px;
+	}
+
+	.messenger-icon {
+		width: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.messenger-button {
+		font-size: 19px;
+	}
+
+	.messenger-icon {
+		width: 25px;
+	}
+ }
+
+@media (min-width: 992px) {
+	.messenger-button {
+		font-size: 22px;
+	}
+
+	.messenger-icon {
+		width: 28px;
+	}
+ }
+
+@media (min-width: 1200px) {
+	.messenger-button {
+		font-size: 23px;
+	}
+
+	.messenger-icon {
+		width: 28px;
+	}
+ }
+
+
+
+
+@media (max-width: 768px) {
+	.info-div {
+		margin: 5%;
+	}
+}
+
+.navbar-inverse {
+	background-image: linear-gradient(252deg, #4997d0, rgba(73, 151, 208, 0.85));
+	width: 100%;
+	color: #fff;
+}
+
+.custom-nav-link {
+	color: #fff;
+	display: block;
+	padding: .5em 1em;
+}
+
+.custom-nav-link:hover {
+	color: rgba(255, 255, 255, .75);
+	text-decoration: none;
+}
+
+.gif-div {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+#mylightbox {
+	/*width: 60%;*/
+	font-family: Raleway;
+}
+
+.featherlight-content {
+	width: 50%;
+}
+
+.disclaimer-line p {
+	text-align: right;
+	font-family: Raleway;
+	font-size: 12px;
+	font-weight: 300px;
+}
